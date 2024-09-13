@@ -1,0 +1,6 @@
+Eval Log Thu Aug 29 16:41:08 2024
+Namespace(backbone='vgg16_bn', batch_size=8, checkpoints_dir='./ckpt', clip_max_norm=0.1, data_root='F:\\ShanghaiTech_Crowd_Counting_Dataset\\part_A_final\\', dataset_file='SHHA', decoder='DecoderChannels', eos_coef=0.5, epochs=3500, eval=False, eval_freq=1, frozen_weights=None, gpu_id=0, line=2, lr=0.0001, lr_backbone=1e-05, lr_drop=3500, num_workers=0, output_dir='./log', point_loss_coef=0.0002, resume='', row=2, seed=42, set_cost_class=1, set_cost_point=0.05, start_epoch=0, tensorboard_dir='./runs', weight_decay=0.0001)loss/loss@0: 0.2791495574889956loss/loss_ce@0: 0.2791495574889956[ep 0][lr 0.0001000][13.94s]loss/loss@1: 0.14809506748979157loss/loss_ce@1: 0.14809506748979157[ep 1][lr 0.0001000][10.91s]mae:420.2637362637363, mse:543.1015427286925, time:11.49605131149292, best mae:420.2637362637363 
+metric/mae@0: 420.2637362637363metric/mse@0: 543.1015427286925 
+loss/loss@2: 0.12735024799366254loss/loss_ce@2: 0.12735024799366254[ep 2][lr 0.0001000][10.91s]mae:203.54945054945054, mse:249.37848017346317, time:11.534029483795166, best mae:203.54945054945054 
+metric/mae@1: 203.54945054945054metric/mse@1: 249.37848017346317 
+loss/loss@3: 0.11446686944848783loss/loss_ce@3: 0.11446686944848783[ep 3][lr 0.0001000][11.13s]
